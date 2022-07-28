@@ -63,7 +63,7 @@ public class Loan {
 
     public int[] getBalance(int emiNo) {
         // check if there are any lumSum payments made before the current emiNo
-        if(emiNo <= 0 || emiNo > totalEMIS){
+        if(emiNo < 0 || emiNo > totalEMIS){
             throw new IllegalArgumentException("EMI Number out of range");
         }
 
