@@ -7,7 +7,7 @@ public class TheLedgerCo {
         Scanner sc = new Scanner(System.in);
         // read the file path from input
         // filepath = C:\Users\sanke\OneDrive\Desktop\input.txt
-        System.out.println("Enter the path for the input file:");
+//        System.out.println("Enter the path for the input file:");
         String filePath = args[0];
 
         // Create a new file object
@@ -15,7 +15,7 @@ public class TheLedgerCo {
             File file = new File(filePath);
 
             sc = new Scanner(file);
-            System.out.println("Reading file from Scanner");
+//            System.out.println("Reading file from Scanner");
             while (sc.hasNextLine()) {
                 String inputStr = sc.nextLine();
                 String[] inputs = inputStr.split(" ");
