@@ -8,7 +8,7 @@ public class TheLedgerCo {
         // read the file path from input
         // filepath = C:\Users\sanke\OneDrive\Desktop\input.txt
         System.out.println("Enter the path for the input file:");
-        String filePath = sc.nextLine();
+        String filePath = sc.next();
 
         // Create a new file object
         try {
